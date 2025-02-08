@@ -1,0 +1,68 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        Trading Hub
+    </header>
+    
+    <main>
+        <section>
+            <h2>Apa itu Trading?</h2>
+            <p>
+                Trading adalah aktivitas jual beli aset seperti saham, forex, dan crypto dengan tujuan mendapatkan keuntungan.
+            </p>
+        </section>
+        
+        <section>
+            <h2>Grafik Harga</h2>
+            <div id="chart-container">
+                <iframe id="tradingview" src="https://s.tradingview.com/widgetembed/?symbol=NASDAQ:AAPL&interval=D&theme=light" 
+                    width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        &copy; 2025 Trading Hub - Semua Hak Dilindungi
+    </footer>
+</body>
+</html>
+
+<!-- styles.css -->
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+footer {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+<!-- script.js -->
+console.log("Trading Hub Loaded");
